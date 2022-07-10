@@ -1,0 +1,35 @@
+.mr-auto{
+    margin-right: auto;
+}
+
+.ml-auto{
+    margin-left: auto;
+}
+
+.fs-16{
+    font-size: 16pt;
+}
+
+.font-weight-bold{
+    font-weight: bold;
+}
+
+.align-items-center{
+    align-items:center
+}
+
+.pl-3{
+    padding-left: 3mm;
+}
+
+.pr-3{
+    padding-right: 3mm;
+}
+
+a{
+    cursor: pointer;
+}
+
+.bg-color{
+    background: #00ced1;
+}
