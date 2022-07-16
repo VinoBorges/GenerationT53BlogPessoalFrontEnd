@@ -24,13 +24,17 @@ ul.social-network li{
 }
 
 .fa-github-square:hover{
-    color: black;
+    color: black
+}
+
+.fa-youtube-play:hover{
+    color: red;
 }
 
 .bg-color{
-    background-color: #00ced1;
+    background-color: #20b2aa;
 }
 
 .bg-color-copyright{
-    background-color: #00a5a7;
+    background-color: #008486;
 }
