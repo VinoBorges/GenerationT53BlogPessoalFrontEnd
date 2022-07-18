@@ -1,5 +1,5 @@
 #img-bg{
-    background-image: url("https://i.imgur.com/W6Y6IP5.jpg");
+    background-image: url("https://i.imgur.com/FVwFi3n.png");
     min-height: 695px;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,4 +8,7 @@
 
 .mr-4{
     margin-right: 4mm;
+}
+.bg-color{
+    background: #20b2aa;
 }
