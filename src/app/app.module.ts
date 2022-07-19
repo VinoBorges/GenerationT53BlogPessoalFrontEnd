@@ -4,9 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
-import { HTTP_INTERCEPTORS } from '@angular/common/http';
 
-import { TokenInterceptorService } from './service/token-interceptor.service';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
@@ -53,14 +51,8 @@ import { OrderModule } from 'ngx-order-pipe';
   ],
   providers: [{
     provide: LocationStrategy,
-    useClass: HashLocationStrategy  
-  },{
-  
-    provide: HTTP_INTERCEPTORS,
-    useClass: TokenInterceptorService,
-    multi: true
-  
-  }], 
+    useClass: HashLocationStrategy 
+  }],
   
   bootstrap: [AppComponent]
 })
